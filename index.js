@@ -117,9 +117,9 @@ ScoreBoard.sort(function(profile1, profile2){
 for(let i in ScoreBoard){
   if(ScoreBoard[i].Name === userName){
     if(i!=0){
-      log(chalk.magenta(`You are at the ${parseInt(i)+1} position, No one told you it's going to be easy`));
+      log(chalk.magenta(`You have secured position ${parseInt(i)+1} in the scoreboard, No one said it's going to be easy:)`));
     }else{
-      log(chalk.magenta("Congratulation you break the highest score"));
+      log(chalk.magenta("Congratulation you break the highest score!!"));
     }
   }
 }
